@@ -6,6 +6,10 @@ def reverse_each_word(sentence)
     reverse_sentence << x.reverse!
   end
   reverse_sentence.join(" ")
+  
+  sentence.collect {|x| x.reverse!}
+    sentence.join(" ")
+end
 end
   
 def reverse_each_word(sentence)
