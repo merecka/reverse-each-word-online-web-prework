@@ -15,6 +15,6 @@ def reverse_each_word(sentence)
   original_sentence = []
   reverse_sentence = []
   original_sentence = sentence.split  ## converts string into an array
-  reverse_sentence = origina_sentence.collect {|x| x.reverse!}
+  reverse_sentence = original_sentence.collect {|x| x.reverse!}
   reverse_sentence.join(" ")
 end
