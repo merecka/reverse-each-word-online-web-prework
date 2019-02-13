@@ -12,6 +12,7 @@ def reverse_each_word(sentence)
 end
   
 def reverse_each_word(sentence)
+  reverse_sentence = []
   reverse_sentence = sentence.collect {|x| x.reverse!}
   reverse_sentence.join(" ")
 end
